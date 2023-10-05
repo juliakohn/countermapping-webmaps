@@ -59,6 +59,10 @@ map.on('load', function(){
     'type':'vector',
     'url': 'mapbox://juliakohn.3mg6o8bm'
   });
+  map.addSource('NYCHA_layer', {
+  	'type': 'vector',
+  	'url': 'mapbox.//juliakohn.0tr1e063'
+  });
   // add a new layer with your polygons
   map.addLayer({
     'id':'flood_zones',
@@ -76,7 +80,7 @@ map.on('load', function(){
     'type':'fill',
     'source':'NYCHA_layer',
     'source-layer':'Map_of_NYCHA_Developments-any3up',
-    'paint':{
+    'paint': {
       'fill-color':'#311465',
       'fill-opacity': 0.7
     }
