@@ -174,7 +174,7 @@
         'url': 'mapbox://iamwfx.8thgevrt'
       });
 
-      map.addSource('PLUTO_HOUS_TYPE',{
+      map.addSource('hous_types',{
         'type':'vector',
         'url': 'mapbox://iamwfx.ab4g098q'
       });
@@ -285,7 +285,7 @@
       map.addLayer({
         'id':'affHousing',
         'type':'line',
-        'source':'PLUTO_HOUS_TYPE',
+        'source':'hous_types',
         'source-layer':'PLUTO_HOUS_TYPE_MASTER_Featu-7b5u7f',
         'paint':{
         	
@@ -293,13 +293,13 @@
           	'line-width': ['interpolate',['linear'], ['zoom'], 13, 2, 18, 10],
           	'line-color':
           	['match',
-      			['get', 'PLUTO_HOUS_TYPE']
+      			['get', 'hous_types'],
       			'Co-Op',
-      			'#c0392b'
-	    		'Shelter',
+      			'#c0392b',
+            'Shelter',
       			'#e74c3c',
       			'HPD subsidized',
-      			'#3498db'
+      			'#3498db',
       			'Mobile Home',
       			'#9b59b6',
       			'Public Housing',
@@ -332,7 +332,8 @@
   var description = '<h4> ' +Address+'<br>'+
                     'BBL: '+BBL+'<br>'+
                     'City Council District: '+Council+ '</h4>'+
-                    '<p> In 2050 1 in 100yr Floodplain?: '+ P_2050_1 + '<br>' + 'In 2050 1 in 500yr Floodplain?: '+P_2050_5 +'<br>'+
+                    '<p> In 2050 1 in 100yr Floodplain?: '+ P_2050_1 + '<br>' +
+                    'In 2050 1 in 500yr Floodplain?: '+P_2050_5 +'<br>'+
                     'In 2100 1 in 100yr Floodplain?: '+P_2100_1 +'<br>'+
                     'In 2100 1 in 500yr Floodplain?: '+P_2100_5 +'</p>'
   popup.setLngLat(coordinates[0][0]).setHTML(description).addTo(map);
@@ -386,4 +387,3 @@ popup.remove();
     </script>
 </body>
 </html>
-
