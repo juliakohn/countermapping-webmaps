@@ -38,7 +38,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Red Hook Houses',
-            image: 'images/source.png',
+            image: 'images/redhooksandy.png',
             description: '"The Red Hook Houses" refers to two public housing complexes in Red Hook, Brooklyn. These complexes form the largest public housing devlopmnent in all of Brooklyn. However, situated at the edge of Brooklyn, the complex is in the middle of a major floodplain that impacted surrounding areas deeply during Hurricane Sandy. The complex was unfortunately damaged by the hurricane, both in terms of infrastructure damage and detriments to residents who lost power and access to basic needs. </br> Source: AIA New York',
             location: {
                 center: [-74.008724, 40.676705],
