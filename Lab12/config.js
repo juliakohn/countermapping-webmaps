@@ -79,7 +79,7 @@ var config = {
         alignment: 'center',
         hidden: false,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tempor purus, eget tempus sem bibendum vel. Maecenas at justo non felis accumsan condimentum vitae et leo. Sed sodales nec risus maximus congue. Ut quis tincidunt leo. Pellentesque sapien nisl, congue tempus mauris in, pulvinar mattis turpis. Nullam sit amet justo egestas, laoreet mauris ut, pulvinar ipsum. Pellentesque vehicula imperdiet iaculis. Nam in tellus metus. Donec a est non orci efficitur ornare id mattis eros. Aliquam vel facilisis ligula. Nullam tincidunt, sapien vitae bibendum consequat, nibh eros eleifend ligula, et aliquam enim justo eget felis. Sed nec vehicula metus. Pellentesque rutrum dui quis egestas hendrerit. Nullam auctor et tortor sit amet congue.',
-        video: 'https://github.com/iamwfx/crs_3850_5850_mapping_countermapping/blob/main/Fall_2022/Images/902-1_902-2364-PD2_preview.mp4',
+        video: 'images/902-1_902-2364-PD2_preview.mp4',
         location: {
           center: [-73.97615, 40.71901],
           zoom: 14.84,
