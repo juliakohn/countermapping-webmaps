@@ -19,7 +19,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'How Sandy Impacted Public Housing in NYC',
-            image: 'images/source.png',
+            image: 'images/sandy.png',
             description: 'In the fall of 2012, New York City was hit with hurricane that left tens of thousands of public housing residents without power for days or even weeks. New York City Housing Authority public housing developments were affected. 24,000 government-subsidized apartments and 40,000 rent-stabilized apartments were also affected. With rising sea levels from climate change and the promise of more flooding, which areas and who will likely be most affected? How is affordable housing construction responding to this? ',
             location: {
                center: [-73.93430, 40.74216],
