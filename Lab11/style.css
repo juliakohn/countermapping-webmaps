@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#YOUR-GIVEN-NAME {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%; } 
