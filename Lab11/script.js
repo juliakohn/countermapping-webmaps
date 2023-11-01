@@ -4,17 +4,17 @@ mapboxgl.accessToken = 'pk.eyJ1IjoianVsaWFrb2huIiwiYSI6ImNsbjF3OXoxMjAydHQyemtoc
 
 const map = new mapboxgl.Map({
 	container: 'julia'
-	style: 'mmapbox://styles/juliakohn/clod1ni8j00sh01p6eqhkdgcb'
-	center: [-122.4194, 37.7749]
-	zoom: 12
-	pitch: 30
+	style: 'mapbox://styles/juliakohn/clod1ni8j00sh01p6eqhkdgcb',
+	center: [-122.4194, 37.7749],
+	zoom: 12,
+	pitch: 30,
 	bearing: 0
 })
 
 map.on('load', function() {
 	map.addSource('restaurantSource',{
 		'type': 'vector',
-		'url': ''
+		'url': 'mapbox://styles/juliakohn/clod1ni8j00sh01p6eqhkdgcb'
 	});
 
 	map.addLayer({
