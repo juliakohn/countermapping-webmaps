@@ -9,9 +9,11 @@ const map = new mapboxgl.Map({
 	zoom: 12,
 	pitch: 30,
 	bearing: 0
-})
+});
 
-map.on('load', function() {
+map.on('load',function() {
+	console.log('my name is julia');
+
 	map.addSource('restaurantSource',{
 		'type': 'vector',
 		'url': 'mapbox://styles/juliakohn/clod1ni8j00sh01p6eqhkdgcb'
