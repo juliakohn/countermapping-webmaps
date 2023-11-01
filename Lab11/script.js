@@ -23,7 +23,7 @@ map.on('load', function() {
 		'source': 'restaurantSource',
 		'source-layer': 'Restaurant_Scores_-_LIVES_Sta-3hd45t',
 		'paint': {
-			'circle-color': '#063f8c'
+			'circle-color': '#000f8c'
 		}
 	})
 
