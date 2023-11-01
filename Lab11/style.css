@@ -2,8 +2,17 @@ body {
   margin: 0;
   padding: 0;
 }
-#YOUR-GIVEN-NAME {
+#julia {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 100%; } 
+  width: 80%;
+ } 
+
+#title{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+  left: 80%;
+}
