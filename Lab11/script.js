@@ -12,7 +12,7 @@ const map = new mapboxgl.Map({
 });
 
 map.on('load',function() {
-	console.log("my name is julia");
+	//console.log("my name is julia");
 
 	map.addSource('restaurantSource',{
 		'type': 'vector',
@@ -28,7 +28,7 @@ map.on('load',function() {
 			'circle-color':[
 
       'match',
-    ['get', 'restaurant_score'],
+    ['get', 'inspection_score'],
       '45', '#440154',
       '46', '#440154',
       '47', '#440154',
