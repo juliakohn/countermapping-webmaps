@@ -6,7 +6,7 @@ const map = new mapboxgl.Map({
 	container: 'julia',
 	style: 'mapbox://styles/juliakohn/clod1ni8j00sh01p6eqhkdgcb',
 	center: [-122.419, 37.774],
-	zoom: 12,
+	zoom: 15,
 	pitch: 30,
 	bearing: 0
 });
