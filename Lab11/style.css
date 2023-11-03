@@ -21,12 +21,12 @@ body {
 
 #title{
   margin-left:5%;
-  margin-right:10%;
+  margin-right:5%;
 }
 
 #resturant_name{
-  margin-left:3%;
-  margin-right:3%;
+  margin-left:5%;
+  margin-right:5%;
 }
 
 #restText{
@@ -44,29 +44,3 @@ h1 {
   font-weight: bold;
 }
 
-.legend {
-  position: absolute;
-  top: 30%;
-  transform: translateY(50%);
-  right: 80px;
-  background: none; /* Add !important to override other styles */
-  padding: 0; /* Remove padding */
-  
-}
-
-.legend h4 {
-  margin: 0 0 10px;
-  font-weight: bold;
-}
-
-.legend div {
-  margin: 0 0 5px;
-}
-
-.legend span {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
-  vertical-align: middle;
-}
