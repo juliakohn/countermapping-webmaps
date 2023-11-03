@@ -12,7 +12,7 @@ const map = new mapboxgl.Map({
 });
 
 map.on('load',function() {
-	//console.log("my name is julia");
+	console.log("my name is julia");
 
 	map.addSource('restaurantSource',{
 		'type': 'vector',
@@ -32,7 +32,9 @@ map.on('load',function() {
 		map.on('mouseenter', 'restaurantLayer', (e) => {
 			//console.log(e.features[0]{'[properties']['business_name']);
 			var name = e.features[0]['properties']['business_name'];
-		})
+			var textField = document.getElementById('restText');
+		textField.innerHTML = name;
+    })
 
 
 })

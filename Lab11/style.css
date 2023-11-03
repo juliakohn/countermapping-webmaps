@@ -7,12 +7,66 @@ body {
   top: 0;
   bottom: 0;
   width: 80%;
- } 
+  left: ;
 
-#title{
+}
+
+#toolbar{
   position: fixed;
   top: 0;
   bottom: 0;
   width: 20%;
   left: 80%;
+}
+
+#title{
+  margin-left:5%;
+  margin-right:10%;
+}
+
+#resturant_name{
+  margin-left:3%;
+  margin-right:3%;
+}
+
+#restText{
+  margin-left:3%;
+  margin-right:3%;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.legend {
+  position: absolute;
+  top: 30%;
+  transform: translateY(50%);
+  right: 80px;
+  background: none; /* Add !important to override other styles */
+  padding: 0; /* Remove padding */
+  
+}
+
+.legend h4 {
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.legend div {
+  margin: 0 0 5px;
+}
+
+.legend span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
