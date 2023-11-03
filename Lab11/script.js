@@ -16,14 +16,14 @@ map.on('load',function() {
 
 	map.addSource('restaurantSource',{
 		'type': 'vector',
-		'url': 'mapbox://styles/juliakohn/clod1ni8j00sh01p6eqhkdgcb'
+		'url': 'mapbox://juliakohn.7j8nzyxg'
 	});
 
 	map.addLayer({
 		'id': 'restaurantLayer',
 		'type': 'circle',
 		'source': 'restaurantSource',
-		'source-layer': 'Restaurant_Scores_-_LIVES_Sta-3hd45t',
+		'source-layer': '_Historical__Restaurant_Score-6ds6lg',
 		'paint': {
 			'circle-color': '#000f8c'
 		}
