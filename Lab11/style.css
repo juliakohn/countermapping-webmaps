@@ -42,5 +42,34 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+
+}
+
+.legend {
+  position: absolute;
+  top: 25%;
+  transform: translateY(50%);
+  right: 150px;
+  background: none; /* Add !important to override other styles */
+  padding: 0; /* Remove padding */
+  
+  
+}
+
+.legend h4 {
+  margin: 0 0 0px;
+  font-weight: bold;
+}
+
+.legend div {
+  margin: 0 0 3px;
+}
+
+.legend span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
+  vertical-align: middle;
 }
 
